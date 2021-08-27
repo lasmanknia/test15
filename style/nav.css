@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: white;  
+    position: absolute;
+    top: 90vh;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+
+    animation: anik;
+    animation-duration: 2s;
+}
+@keyframes anik {
+    from{
+        top: 140vh;
+    }
+}
+
+nav a{
+    font-size: 70px;
+    padding: 40px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    margin: auto;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: cornsilk;
+    font-size: 90px;
+    transition: 0.5s;
+}
+#aa{
+    font-size: 130px;
+    padding: 7px;
+    width: 20vw;
+    color: rgb(5, 5, 5);
+}
+.main{
+    width: 100vw;
+    background-color: whitesmoke;
+}
+.fa{
+    color: rgb(3, 3, 3);
+}

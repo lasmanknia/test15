@@ -1,0 +1,49 @@
+.ti{
+    font-size: 100px;
+    background-color: white;
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+}
+.one{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.one p{
+    box-shadow: 1px 1px 4px black;
+    width: 45vw;
+    text-align: center;
+    padding: 120px;
+    margin: 20px;
+    background-color: white;
+    font-size: 60px;
+}
+.one a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.bb{
+    background-color: white;
+    margin-top: 40px;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+.bb img{
+    width: 40vw;
+    margin: 40px;
+    float: left;
+}
+h1{
+    font-size: 25px;
+}
+.bb p{
+    font-size: 12px;
+}
+
+
+footer{
+    height: 15vh;
+}

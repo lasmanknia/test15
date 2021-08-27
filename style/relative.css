@@ -1,0 +1,60 @@
+#ti{
+    font-size: 80px;
+    background-color: gray;
+    color: white;
+    width: 70vw;
+    text-align: center;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.pp{
+    width: 30vw;
+    text-align: center;
+    margin: auto;
+}
+.pp img{
+    border-radius: 50%;
+    width: 25vw;
+    margin-top: 40px;
+    border: 10px solid rgb(255, 255, 255);
+
+    animation: anik 2s;
+}
+@keyframes anik {
+    from{
+        border-radius: 0px;
+    }    
+}
+.pp img:hover{
+    border-radius: 0px;
+}
+.pp p{
+    font-size: 50px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: white;  
+    position: absolute;
+    top: 90vh;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+
+    animation: anik;
+    animation-duration: 2s;
+}
+@keyframes anik {
+    from{
+        top: 140vh;
+    }
+}
+footer{
+    height: 15vh;
+}
